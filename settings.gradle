@@ -1,3 +1,2 @@
-include ':LUtils'
 include ':app'
 rootProject.name = "CommonUtils"
