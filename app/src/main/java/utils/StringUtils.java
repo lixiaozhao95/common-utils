@@ -1,4 +1,4 @@
-package com.lee.lutils;
+package utils;
 
 /**
  * @ClassName StringUtils

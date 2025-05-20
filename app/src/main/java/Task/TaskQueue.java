@@ -1,4 +1,4 @@
-package com.lee.lutils.Task;
+package Task;
 
 import java.util.LinkedList;
 import java.util.Queue;

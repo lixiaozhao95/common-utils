@@ -1,4 +1,4 @@
-package com.lee.lutils;
+package utils;
 
 import android.text.TextUtils;
 import android.util.Log;
@@ -30,7 +30,7 @@ public class LogUtils {
      * @param level
      */
     public static void setLogLevel(int level) {
-        com.lee.lutils.LogUtils.mLogLevel = level;
+        LogUtils.mLogLevel = level;
     }
 
     /**

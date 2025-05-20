@@ -1,4 +1,4 @@
-package com.lee.lutils;
+package utils;
 
 import android.content.Context;
 import android.view.View;

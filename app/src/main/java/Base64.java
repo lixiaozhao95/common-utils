@@ -1,5 +1,3 @@
-package com.lee.lutils;
-
 /**
  * Base64工具类
  *

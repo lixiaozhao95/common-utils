@@ -1,7 +1,7 @@
-package com.lee.lutils.Task;
+package Task;
 
 public class Task {
-        private String taskName;
+        private final String taskName;
 
         public Task(String taskName) {
             this.taskName = taskName;
@@ -15,7 +15,7 @@ public class Task {
             // 模拟任务执行
             try {
                 listener.onExecute(this);
-                Thread.sleep(3000); // 假设每个任务执行1秒
+                Thread.sleep(1000); // 假设每个任务执行1秒
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

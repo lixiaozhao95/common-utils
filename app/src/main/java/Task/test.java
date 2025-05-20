@@ -1,4 +1,4 @@
-package com.lee.lutils.Task;
+package Task;
 
 public class test {
     public static void main(String[] args) {

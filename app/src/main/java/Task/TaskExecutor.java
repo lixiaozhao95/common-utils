@@ -1,8 +1,8 @@
-package com.lee.lutils.Task;
+package Task;
 
 public class TaskExecutor {
     private TaskQueue taskQueue;
-    private onTaskExecuteListener onTaskExecute;
+    private final onTaskExecuteListener onTaskExecute;
     public TaskExecutor(TaskQueue taskQueue, onTaskExecuteListener listener) {
         this.taskQueue = taskQueue;
         this.onTaskExecute = listener;
