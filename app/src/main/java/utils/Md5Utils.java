@@ -1,7 +1,6 @@
 package utils;
 
 
-import Base64;
 
 import java.security.MessageDigest;
 
@@ -12,7 +11,6 @@ import java.security.MessageDigest;
  * @author
  */
 public class Md5Utils {
-
     private static byte[] md5(String s) {
         MessageDigest algorithm;
         try {
@@ -54,7 +52,7 @@ public class Md5Utils {
 
     public static String encode(String s) {
         try {
-            return hash(Base64.encode(s));
+            return hash(Base64Class.encode(s));
         } catch (Exception e) {
             LogUtils.e("not supported charset...{}", e);
             return s;

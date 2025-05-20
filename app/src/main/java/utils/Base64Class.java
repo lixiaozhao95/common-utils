@@ -1,9 +1,11 @@
+package utils;
+
 /**
  * Base64工具类
  *
  * @author
  */
-public final class Base64 {
+public final class Base64Class {
     static private final int BASELENGTH = 128;
     static private final int LOOKUPLENGTH = 64;
     static private final int TWENTYFOURBITGROUP = 24;
